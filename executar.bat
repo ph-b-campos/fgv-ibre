@@ -2,20 +2,20 @@
 title Motor de Busca Semantico - FGV IBRE
 color 0F
 
+if not exist ".venv\Scripts\activate" (
+    echo [SETUP INICIAL] Criando ambiente virtual.
+    python -m venv .venv
+    echo [SETUP INICIAL] Instalando as dependencias.
+    call .venv\Scripts\activate
+    pip install -r requirements.txt -q --no-warn-script-location
+    echo [SETUP INICIAL] Tudo pronto!
+    echo.
+)
+
 echo ===================================================
 echo     Iniciando o ambiente aguarde um instante...
 echo ===================================================
 echo.
-
-if not exist ".venv\Scripts\activate" (
-    echo [SETUP INICIAL] Ambiente virtual nao encontrado. Criando agora...
-    python -m venv .venv
-    echo [SETUP INICIAL] Instalando as dependencias do requirements.txt...
-    call .venv\Scripts\activate
-    pip install -r requirements.txt
-    echo [SETUP INICIAL] Tudo pronto!
-    echo.
-)
 
 REM Silencia Warnings e Mensagens de erro
 set HF_HUB_DISABLE_SYMLINKS_WARNING=1
