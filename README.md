@@ -5,7 +5,7 @@
 
 ## Instruções de uso da Aplicação:
 - Execute o arquivo 'executar.bat'.
-- Espere alguns instantes.
+- Espere alguns instantes. (na primeira vez pode demorar um pouco mais, cerca de uns 5 minutos)
 - Busque por noticias utilizando palavras chave ou eventos. ex: inflação, desemprego, taxa de juros, aumento ipca.
 - Evite buscar por siglas de índices como ICC, IPA.
 - Para encerrar o programa digite sair e feche a aba.
