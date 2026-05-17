@@ -21,7 +21,7 @@
 - Salvei os dados na mesma pasta '\dados' como 'noticias_limpas.json'.
 
 ### Etapa 2 - Geração de Embeddings
-- Escolhi o modelo 'paraphrase-multilingual-MiniLM-L12-v2' da biblioteca Sentence Transformers por estar em portugês e por ser um modelo leve.
+- Escolhi o modelo 'paraphrase-multilingual-MiniLM-L12-v2' da biblioteca Sentence Transformers por ter compactibilidade com a lingua portuguesa e  ser um modelo leve.
 
 ### Etapa 3 - Motor de Busca Semântico
 - Fiz uma interface em que o usuário deve interagir e realizar buscas sem precisar abrir um terminal iniciar um ambiente virtual e rodar o código manualmente.
